@@ -1,0 +1,54 @@
+/* header{
+    background-image: url("img/header.jpg");
+} */
+@font-face{font-family: "Courgette";
+        src: url(../img/Courgette/Courgette-Regular.ttf);}
+.one{
+    height: 600px;
+    background-image: url("../img/header.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: "courgette";
+
+}
+a{
+    color: white;
+}
+h2{
+    font-family: "courgette";
+}
+.navbar{
+    border-bottom: solid;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+header{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 542px;
+}
+.col-4{
+    text-align: center;
+
+}
+div.col-4{
+    height: auto;
+}
+.col-3{
+    height: 134px;
+    /* width: 200px; */
+}
+#style_img{
+    height: 100%;
+}
+.col-9{
+    padding-left: 70px;
+}
+button{
+    width: 195px;
+    border-color: black;
+    background-color: white;
+}
+#exampleFormControlInput1{
+    font-family: "courgette";
+}
+

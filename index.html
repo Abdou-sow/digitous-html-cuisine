@@ -15,44 +15,87 @@
     <title>cuisine</title>
 </head>
 <body>
-    <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="one">
+        <nav class="navbar navbar-expand-lg text-white bg-tranparent ">
             <a class="navbar-brand" href="#">Cui'sine</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-link" href="#">Features</a>
-                <a class="nav-link" href="#">Pricing</a>
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup"><!-- j'ai enlever le d-flex pour cacher les a  -->
+                <div class="navbar-nav ">
+                    <a class="nav-link active" href="#">Accueil</a>
+                    <a class="nav-link" href="#">Equipe</a>
+                    <a class="nav-link" href="#">blog</a>
+                    <a class="nav-link" href="#">Contact</a>
+                    <!-- <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> -->
+                </div>
             </div>
         </nav>
         <header>
-            <div>
-                <img src="" alt="">
-            </div>
-            <div>
-                <h1></h1>
-                <h2></h2>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-4  justify-content-space-between">
+                        <img src="./img/logo_square_white.png">
+                        <h1>Cui'sine</h1>
+                        <h2>le mag cuisine</h2>
+                    </div>
+                    <div class="col-4"></div>
+                </div>
             </div>
         </header>
     </div>
-    <section>
-        <div>
-            <h2></h2>
-            <p></p>
+    <div class="container ">
+        <div class="row my-56">
+            <div class="col offset-4 my-5"><h1>Derniers article</h1></div>
+        </div><!-- first lign -->
+        <div class="container">
+            <div class="row">
+                <div class="col-10">
+                    <div class="container ">
+                        <div class="row my-2">
+                            <div class="col-3"> <img src="./img/articles/suzette/suzette-small.jpg" id="style_img"> </div><!-- image-->
+                            <div class="col-9">
+                                <h2>À propos de ce générateur de texte aléatoire</h2>
+                                <p>Élevez vos coeurs, hommes de chair blanche demeurés accrochés à ses cheveux. Guidée par un goût naturel et de si belle grâce, eût souhaité qu'on fît pour l'assoupir. Peau blanche, d'une santé compromise ou sur le pli, le coeur de celle-ci en fut bouleversé.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row my-2">
+                            <div class="col-3"><img src="./img/articles/metro/metro-small.jpg" id="style_img" ></div><!-- image-->
+                            <div class="col-9">
+                                <h2>À propos de ce générateur de texte aléatoire</h2>
+                                <p>Élevez vos coeurs, hommes de chair blanche demeurés accrochés à ses cheveux. Guidée par un goût naturel et de si belle grâce, eût souhaité qu'on fît pour l'assoupir. Peau blanche, d'une santé compromise ou sur le pli, le coeur de celle-ci en fut bouleversé.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row my-2">
+                            <div class="col-3 offset-0"><img src="./img/articles/vitaly/vitaly-small.jpg" id="style_img"></div><!-- image-->
+                            <div class="col-9">
+                                <h2>À propos de ce générateur de texte aléatoire</h2>
+                                <p>Élevez vos coeurs, hommes de chair blanche demeurés accrochés à ses cheveux. Guidée par un goût naturel et de si belle grâce, eût souhaité qu'on fît pour l'assoupir. Peau blanche, d'une santé compromise ou sur le pli, le coeur de celle-ci en fut bouleversé.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--deusieme colonne-->
+                <div class="col-2">
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label" id="exampleFormControlInput1">recherche</label>
+                        <input type="email" class="form-control" placeholder="recherche...">
+                        <button type="button" class="btn btn-light">OK</button>
+                    </div>
+                    <div>
+                        <label for="exampleFormControlInput1" class="form-label" id="exampleFormControlInput1">Newsletter</label>
+                        <input type="email" class="form-control" placeholder="email..">
+                        <button type="button" class="btn btn-light">S'inscrire</button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div>
-            <img src="" alt="">
-        </div>
-        <div>
-            <h2></h2>
-            <p></p>
-        </div>
-    </section>
+    </div>
     <section>
         <div>
             <img src="" alt="">
