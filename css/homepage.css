@@ -1,43 +1,31 @@
 /* header{
     background-image: url("img/header.jpg");
 } */
-@font-face{font-family: "Courgette";
-        src: url(../img/Courgette/Courgette-Regular.ttf);}
-@font-face{font-family:"Oswald"; src: url(../Oswald/Oswald-VariableFont_wght.ttf); }
- /* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"); */ 
-.one{
-    height: 600px;
+
+.one {
+    height: 490px;
     background-image: url("../img/header.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     font-family: "courgette";
 
 }
-a{
-    color: white;
-}
-h2,
-h3{
-    font-family: "courgette";
-}
-.navbar{
+
+/* .navbar {
     border-bottom: solid;
     background-color: rgba(0, 0, 0, 0.5);
-}
-header{
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    height: 542px;
-}
-header img{
+} */
+
+header img {
     height: 97px;
     
 }
-.col-4{
+
+.col-4 {
     text-align: center;
 
 }
-div.col-4{
+div.col-4 {
     height: auto;
 }
 .col-3{
@@ -62,9 +50,9 @@ button{
 footer{
     background-color: black;
 }
-footer ul {
+/* footer ul {
     list-style: none;
-}
+} */
 #fth2{
     color: white;
 }
@@ -98,5 +86,4 @@ ul{
 .col-9 p{
     font-family:"Oswald";
 }
-i{color: white;
-    padding: 10px;}
+

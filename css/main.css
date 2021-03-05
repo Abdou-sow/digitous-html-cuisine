@@ -1,8 +1,40 @@
+@font-face{font-family: "Courgette";
+    src: url(../img/Courgette/Courgette-Regular.ttf);}
+@font-face{font-family:"Oswald"; src: url(../Oswald/Oswald-VariableFont_wght.ttf); }
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"); */ 
+
+.navbar{
+    border-bottom: solid;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+header{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    height: 432px;
+}
+
+.navbar {
+    border-bottom: solid;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 h1,
 h2,
-h3{
+h3,
+h5,
+#exampleFormControlInput1 {
     font-family: "courgette";
 }
-a{
+
+a {
     color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+i {
+    color: white;
+    padding: 10px;
 }

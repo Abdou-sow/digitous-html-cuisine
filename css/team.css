@@ -1,0 +1,12 @@
+.one {
+    height: 490px;
+    background-image: url("../img/team/team.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: "courgette";
+
+}
+
+.py-5{
+    text-align: center;
+}
