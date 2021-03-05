@@ -3,6 +3,8 @@
 } */
 @font-face{font-family: "Courgette";
         src: url(../img/Courgette/Courgette-Regular.ttf);}
+@font-face{font-family:"Oswald"; src: url(../Oswald/Oswald-VariableFont_wght.ttf); }
+ /* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"); */ 
 .one{
     height: 600px;
     background-image: url("../img/header.jpg");
@@ -14,7 +16,8 @@
 a{
     color: white;
 }
-h2{
+h2,
+h3{
     font-family: "courgette";
 }
 .navbar{
@@ -25,6 +28,10 @@ header{
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     height: 542px;
+}
+header img{
+    height: 97px;
+    
 }
 .col-4{
     text-align: center;
@@ -39,10 +46,11 @@ div.col-4{
 }
 #style_img{
     height: 100%;
+    width: 100%;
 }
-.col-9{
+/* .col-9{
     padding-left: 70px;
-}
+} */
 button{
     width: 195px;
     border-color: black;
@@ -51,4 +59,44 @@ button{
 #exampleFormControlInput1{
     font-family: "courgette";
 }
-
+footer{
+    background-color: black;
+}
+footer ul {
+    list-style: none;
+}
+#fth2{
+    color: white;
+}
+#lft{
+    text-align: left;
+}
+#lft ul li a{
+    text-align: left;
+}
+h5{
+    font-family: "courgette";
+    color: white;
+    text-align: start;
+}
+/* #ft{
+    width: auto; */
+}
+#ftb{
+    width: 100px;
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+ul{
+    padding-left: 0%;
+}
+#btdiv{
+    background-color: white;
+    border-color: black;
+}
+.col-9 p{
+    font-family:"Oswald";
+}
+i{color: white;
+    padding: 10px;}
